@@ -1,9 +1,9 @@
 {
   "author": {
-    "name": "Ross Ning",
-    "email": "rossning92@gmail.com"
+    "name": "(Old:Ross Ning)RDPStudio",
+    "email": "admin@rdpstudio.top"
   },
-  "name": "movy",
+  "name": "rdpmovy",
   "version": "0.0.5",
   "main": "src/movy.ts",
   "license": "MIT",
