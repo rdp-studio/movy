@@ -1,6 +1,6 @@
 ![logo](img/logo.png)
 
-**movy.js** is an easy-to-use animation engine based on three.js and gsap.
+**rdpmovy.js** is an easy-to-use animation engine based on three.js and gsap.
 
 
 
@@ -18,7 +18,7 @@ Please also make sure your node version is 12.x
 Assuming you have [node.js](https://nodejs.org/) installed on your computer, you can install movy.js simply by:
 
 ```sh
-npm i -g movy
+npm i -g rdpmovy
 ```
 
 To run movy.js, enter the following command in your terminal:
