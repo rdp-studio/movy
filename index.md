@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+![logo](img/logo.png)
 
-You can use the [editor on GitHub](https://github.com/rdp-studio/rdpmovy.js/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+**rdpmovy.js** is an easy-to-use animation engine based on three.js and gsap.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![gallery](img/gallery.png)
 
-```markdown
-Syntax highlighted code block
+## Prerequisite
 
-# Header 1
-## Header 2
-### Header 3
+Please also make sure your node version is 12.x
 
-- Bulleted
-- List
+> Notice: ReferenceError: BigInt is not defined ，you should make sure your node version is 12.x.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Getting Started
 
-[Link](url) and ![Image](src)
+Assuming you have [node.js](https://nodejs.org/) installed on your computer, you can install movy.js simply by:
+
+```sh
+npm i -g rdpmovy
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+To run movy.js, enter the following command in your terminal:
 
-### Jekyll Themes
+```sh
+movy
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/rdp-studio/rdpmovy.js/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+It will show a list of example animations in the `examples` folder.
 
-### Support or Contact
+![examples](img/examples.png)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+To create your own animation, you can start a new javascript file. Following is a simple hello-world program for movy.js.
+
+```js
+import * as mo from "movy";
+
+const t = mo
+  .addText("movy.js is simple!", {
+    scale: 1,
+    color: "yellow",
+  })
+  .reveal();
+
+mo.run();
+```
+
+Save the file as `hello.js`, then open the animation in the browser by
+
+```sh
+movy hello.js
+```
