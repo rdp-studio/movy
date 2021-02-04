@@ -1,2 +1,4 @@
 theme: jekyll-theme-time-machine
-show_downloads: false
+github:
+  zip_url: https://github.com/rdp-studio/rdpmovy.js/archive/master.zip
+  another_url: rdp-studio
