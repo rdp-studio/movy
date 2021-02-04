@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ![logo](img/logo.png)
 
 **rdpmovy.js** is an easy-to-use animation engine based on three.js and gsap.
