@@ -1,4 +1,5 @@
 theme: jekyll-theme-time-machine
 github:
-  zip_url: https://github.com/rdp-studio/rdpmovy.js/archive/master.zip
+  zip_url: https://github.com/rdp-studio/rdpmovy.js/zipball/master
+  tar_url: https://github.com/rdp-studio/rdpmovy.js/tarball/master
   another_url: rdp-studio
